@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 13 07:54:53 EDT 2025</td>
+<td>Started on:</td><td>Mon May 19 07:54:07 EDT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>63 seconds (63971 ms)</td>
+<tr><td>Total time:</td><td>57 seconds (57069 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,97 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScenarios.SwitchingWindow.switchWin()'><b>switchWin</b><br>Test class: testScenarios.SwitchingWindow</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log in&quot;}
+  (Session info: MicrosoftEdge=137.0.3296.16)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [743ac1d945bec57fbb82117c4deeec9c, findElement {value=Log in, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.16, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50773}, msedge: {msedgedriverVersion: 137.0.3296.16 (0cd755807947..., userDataDir: C:\Users\pradh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50773/devtoo..., se:cdpVersion: 137.0.3296.16, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 743ac1d945bec57fbb82117c4deeec9c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at testScenarios.SwitchingWindow.switchWin(SwitchingWindow.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1418102907", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1418102907'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log in&quot;}
+  (Session info: MicrosoftEdge=137.0.3296.16)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [743ac1d945bec57fbb82117c4deeec9c, findElement {value=Log in, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.16, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50773}, msedge: {msedgedriverVersion: 137.0.3296.16 (0cd755807947..., userDataDir: C:\Users\pradh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50773/devtoo..., se:cdpVersion: 137.0.3296.16, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 743ac1d945bec57fbb82117c4deeec9c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at testScenarios.SwitchingWindow.switchWin(SwitchingWindow.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>3</td>
+<td>testScenarios.SwitchingWindow@6dc17b83</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,80 +167,75 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testScenarios.SwitchingWindow.switchWin()'><b>switchWin</b><br>Test class: testScenarios.SwitchingWindow</td>
+<td title='testScenarios.Rediff.closeBrowser()'><b>closeBrowser</b><br>Test class: testScenarios.Rediff<br>Test method: close browser</td>
 <td></td>
-<td>5</td>
-<td>testScenarios.SwitchingWindow@158da8e</td></tr>
+<td>1</td>
+<td>testScenarios.Rediff@1a451d4d</td></tr>
 <tr>
 <td title='testScenarios.ReadFrmWebTable.ReadWebTable()'><b>ReadWebTable</b><br>Test class: testScenarios.ReadFrmWebTable</td>
 <td></td>
 <td>4</td>
-<td>testScenarios.ReadFrmWebTable@71809907</td></tr>
-<tr>
-<td title='testScenarios.MouseOver.dragDrop()'><b>dragDrop</b><br>Test class: testScenarios.MouseOver</td>
-<td></td>
-<td>8</td>
-<td>testScenarios.MouseOver@8dbdac1</td></tr>
+<td>testScenarios.ReadFrmWebTable@7fa98a66</td></tr>
 <tr>
 <td title='testScenarios.CompareWebTable.readFrmWebTb()'><b>readFrmWebTb</b><br>Test class: testScenarios.CompareWebTable</td>
 <td></td>
-<td>5</td>
-<td>testScenarios.CompareWebTable@3ce1e309</td></tr>
-<tr>
-<td title='testScenarios.Rediff.closeBrowser()'><b>closeBrowser</b><br>Test class: testScenarios.Rediff<br>Test method: close browser</td>
-<td></td>
-<td>1</td>
-<td>testScenarios.Rediff@6e20b53a</td></tr>
-<tr>
-<td title='testScenarios.HandlingDynaData.dynData()'><b>dynData</b><br>Test class: testScenarios.HandlingDynaData</td>
-<td></td>
-<td>6</td>
-<td>testScenarios.HandlingDynaData@6c80d78a</td></tr>
-<tr>
-<td title='testScenarios.CompareWebTable.readFrmTxtFile()'><b>readFrmTxtFile</b><br>Test class: testScenarios.CompareWebTable</td>
-<td></td>
-<td>0</td>
-<td>testScenarios.CompareWebTable@3ce1e309</td></tr>
-<tr>
-<td title='testScenarios.ThruTextFile.readFrmTextFile()'><b>readFrmTextFile</b><br>Test class: testScenarios.ThruTextFile</td>
-<td></td>
-<td>0</td>
-<td>testScenarios.ThruTextFile@6aba2b86</td></tr>
-<tr>
-<td title='testScenarios.Rediff.openBrowser()'><b>openBrowser</b><br>Test class: testScenarios.Rediff<br>Test method: Lunch Rediff</td>
-<td></td>
-<td>21</td>
-<td>testScenarios.Rediff@6e20b53a</td></tr>
-<tr>
-<td title='testScenarios.MouseOver.reSize()'><b>reSize</b><br>Test class: testScenarios.MouseOver</td>
-<td></td>
-<td>7</td>
-<td>testScenarios.MouseOver@8dbdac1</td></tr>
-<tr>
-<td title='testScenarios.Rediff.loginRediff1()'><b>loginRediff1</b><br>Test class: testScenarios.Rediff<br>Test method: Login</td>
-<td></td>
-<td>3</td>
-<td>testScenarios.Rediff@6e20b53a</td></tr>
-<tr>
-<td title='testScenarios.DP.login()'><b>login</b><br>Test class: testScenarios.DP<br>Parameters: puja, puja123</td>
-<td></td>
-<td>0</td>
-<td>testScenarios.DP@32eff876</td></tr>
+<td>8</td>
+<td>testScenarios.CompareWebTable@15ff3e9e</td></tr>
 <tr>
 <td title='testScenarios.DP.login()'><b>login</b><br>Test class: testScenarios.DP<br>Parameters: riya, riya123</td>
 <td></td>
 <td>0</td>
-<td>testScenarios.DP@32eff876</td></tr>
+<td>testScenarios.DP@6c80d78a</td></tr>
+<tr>
+<td title='testScenarios.Rediff.openBrowser()'><b>openBrowser</b><br>Test class: testScenarios.Rediff<br>Test method: Lunch Rediff</td>
+<td></td>
+<td>13</td>
+<td>testScenarios.Rediff@1a451d4d</td></tr>
+<tr>
+<td title='testScenarios.Rediff.loginRediff1()'><b>loginRediff1</b><br>Test class: testScenarios.Rediff<br>Test method: Login</td>
+<td></td>
+<td>2</td>
+<td>testScenarios.Rediff@1a451d4d</td></tr>
+<tr>
+<td title='testScenarios.MouseOver.dragDrop()'><b>dragDrop</b><br>Test class: testScenarios.MouseOver</td>
+<td></td>
+<td>7</td>
+<td>testScenarios.MouseOver@62150f9e</td></tr>
+<tr>
+<td title='testScenarios.DP.login()'><b>login</b><br>Test class: testScenarios.DP<br>Parameters: puja, puja123</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.DP@6c80d78a</td></tr>
+<tr>
+<td title='testScenarios.ThruTextFile.readFrmTextFile()'><b>readFrmTextFile</b><br>Test class: testScenarios.ThruTextFile</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.ThruTextFile@5fdcaa40</td></tr>
 <tr>
 <td title='testScenarios.DP.login()'><b>login</b><br>Test class: testScenarios.DP<br>Parameters: Jack, jack123</td>
 <td></td>
 <td>0</td>
-<td>testScenarios.DP@32eff876</td></tr>
+<td>testScenarios.DP@6c80d78a</td></tr>
 <tr>
 <td title='testScenarios.CompareWebTable.compare()'><b>compare</b><br>Test class: testScenarios.CompareWebTable</td>
 <td></td>
 <td>0</td>
-<td>testScenarios.CompareWebTable@3ce1e309</td></tr>
+<td>testScenarios.CompareWebTable@15ff3e9e</td></tr>
+<tr>
+<td title='testScenarios.MouseOver.reSize()'><b>reSize</b><br>Test class: testScenarios.MouseOver</td>
+<td></td>
+<td>7</td>
+<td>testScenarios.MouseOver@62150f9e</td></tr>
+<tr>
+<td title='testScenarios.HandlingDynaData.dynData()'><b>dynData</b><br>Test class: testScenarios.HandlingDynaData</td>
+<td></td>
+<td>6</td>
+<td>testScenarios.HandlingDynaData@61862a7f</td></tr>
+<tr>
+<td title='testScenarios.CompareWebTable.readFrmTxtFile()'><b>readFrmTxtFile</b><br>Test class: testScenarios.CompareWebTable</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.CompareWebTable@15ff3e9e</td></tr>
 </table><p>
 </body>
 </html>

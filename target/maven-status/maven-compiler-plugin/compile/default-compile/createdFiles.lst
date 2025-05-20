@@ -4,5 +4,6 @@ testScenarios\Rediff.class
 testScenarios\ReadFrmWebTable.class
 testScenarios\HandlingDynaData.class
 testScenarios\SwitchingWindow.class
+testScenarios\DatePicker.class
 testScenarios\ThruTextFile.class
 testScenarios\DP.class
