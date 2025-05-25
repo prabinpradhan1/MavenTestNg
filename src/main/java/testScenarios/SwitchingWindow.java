@@ -38,12 +38,14 @@ public class SwitchingWindow {
 		driver.switchTo().window(win2);
 		
 		System.out.println("Window2 Title:"+driver.getTitle());
-		boolean chkloginstat=driver.findElement(By.linkText("Log in")).isEnabled();
+		boolean chkloginstat=driver.findElement(By.id("tnb-login-btn")).isEnabled();
 		System.out.println(chkloginstat);
-		if(chkloginstat=true) {
+		if(chkloginstat=true)
+		{
 			System.out.println("Login Button Enabled..");
 		}
-		else {
+		else
+		{
 			System.out.println("Login Button Disabled...");
 		}
 		driver.quit();

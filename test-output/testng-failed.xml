@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScenarios.DatePicker">
+      <class name="testScenarios.SwitchingWindow">
         <methods>
-          <include name="pickdate"/>
+          <include name="switchWin"/>
         </methods>
-      </class> <!-- testScenarios.DatePicker -->
+      </class> <!-- testScenarios.SwitchingWindow -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

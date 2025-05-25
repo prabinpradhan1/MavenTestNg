@@ -2,36 +2,36 @@
 <testng-results ignored="1" total="16" passed="14" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-19T07:54:07 EDT" name="Suite" finished-at="2025-05-19T07:55:04 EDT" duration-ms="57069">
+  <suite started-at="2025-05-23T21:04:56 EDT" name="Suite" finished-at="2025-05-23T21:06:05 EDT" duration-ms="69694">
     <groups>
     </groups>
-    <test started-at="2025-05-19T07:54:07 EDT" name="Test" finished-at="2025-05-19T07:55:04 EDT" duration-ms="57069">
+    <test started-at="2025-05-23T21:04:56 EDT" name="Test" finished-at="2025-05-23T21:06:05 EDT" duration-ms="69694">
       <class name="testScenarios.Rediff">
-        <test-method signature="openBrowser()[pri:1, instance:testScenarios.Rediff@1a451d4d]" started-at="2025-05-19T07:54:29 EDT" name="openBrowser" description="Lunch Rediff" finished-at="2025-05-19T07:54:43 EDT" duration-ms="13494" status="PASS">
+        <test-method signature="openBrowser()[pri:1, instance:testScenarios.Rediff@6e20b53a]" started-at="2025-05-23T21:05:28 EDT" name="openBrowser" description="Lunch Rediff" finished-at="2025-05-23T21:05:35 EDT" duration-ms="6898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="loginRediff1()[pri:2, instance:testScenarios.Rediff@1a451d4d]" started-at="2025-05-19T07:54:43 EDT" name="loginRediff1" description="Login" finished-at="2025-05-19T07:54:46 EDT" duration-ms="2959" status="PASS">
+        <test-method signature="loginRediff1()[pri:2, instance:testScenarios.Rediff@6e20b53a]" started-at="2025-05-23T21:05:35 EDT" name="loginRediff1" description="Login" finished-at="2025-05-23T21:05:40 EDT" duration-ms="4251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginRediff1 -->
-        <test-method signature="closeBrowser()[pri:3, instance:testScenarios.Rediff@1a451d4d]" started-at="2025-05-19T07:54:46 EDT" name="closeBrowser" description="close browser" finished-at="2025-05-19T07:54:47 EDT" duration-ms="1305" status="PASS">
+        <test-method signature="closeBrowser()[pri:3, instance:testScenarios.Rediff@6e20b53a]" started-at="2025-05-23T21:05:40 EDT" name="closeBrowser" description="close browser" finished-at="2025-05-23T21:05:41 EDT" duration-ms="1250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testScenarios.Rediff -->
       <class name="testScenarios.MouseOver">
-        <test-method signature="dragDrop()[pri:1, instance:testScenarios.MouseOver@62150f9e]" started-at="2025-05-19T07:54:14 EDT" name="dragDrop" finished-at="2025-05-19T07:54:22 EDT" duration-ms="7761" status="PASS">
+        <test-method signature="dragDrop()[pri:1, instance:testScenarios.MouseOver@8dbdac1]" started-at="2025-05-23T21:05:07 EDT" name="dragDrop" finished-at="2025-05-23T21:05:18 EDT" duration-ms="10621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragDrop -->
-        <test-method signature="reSize()[pri:2, instance:testScenarios.MouseOver@62150f9e]" started-at="2025-05-19T07:54:22 EDT" name="reSize" finished-at="2025-05-19T07:54:29 EDT" duration-ms="7915" status="PASS">
+        <test-method signature="reSize()[pri:2, instance:testScenarios.MouseOver@8dbdac1]" started-at="2025-05-23T21:05:18 EDT" name="reSize" finished-at="2025-05-23T21:05:28 EDT" duration-ms="10869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reSize -->
       </class> <!-- testScenarios.MouseOver -->
       <class name="testScenarios.DP">
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testScenarios.DP@6c80d78a]" started-at="2025-05-19T07:54:14 EDT" name="login" data-provider="data" finished-at="2025-05-19T07:54:14 EDT" duration-ms="2" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testScenarios.DP@32eff876]" started-at="2025-05-23T21:05:07 EDT" name="login" data-provider="data" finished-at="2025-05-23T21:05:07 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testScenarios.DP@6c80d78a]" started-at="2025-05-19T07:54:14 EDT" name="login" data-provider="data" finished-at="2025-05-19T07:54:14 EDT" duration-ms="0" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testScenarios.DP@32eff876]" started-at="2025-05-23T21:05:07 EDT" name="login" data-provider="data" finished-at="2025-05-23T21:05:07 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testScenarios.DP@6c80d78a]" started-at="2025-05-19T07:54:14 EDT" name="login" data-provider="data" finished-at="2025-05-19T07:54:14 EDT" duration-ms="0" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:testScenarios.DP@32eff876]" started-at="2025-05-23T21:05:07 EDT" name="login" data-provider="data" finished-at="2025-05-23T21:05:07 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,61 +81,61 @@
         </test-method> <!-- login -->
       </class> <!-- testScenarios.DP -->
       <class name="testScenarios.CompareWebTable">
-        <test-method signature="readFrmTxtFile()[pri:1, instance:testScenarios.CompareWebTable@15ff3e9e]" started-at="2025-05-19T07:54:52 EDT" name="readFrmTxtFile" finished-at="2025-05-19T07:54:52 EDT" duration-ms="9" status="PASS">
+        <test-method signature="readFrmTxtFile()[pri:1, instance:testScenarios.CompareWebTable@3ce1e309]" started-at="2025-05-23T21:05:50 EDT" name="readFrmTxtFile" finished-at="2025-05-23T21:05:50 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readFrmTxtFile -->
-        <test-method signature="readFrmWebTb()[pri:2, instance:testScenarios.CompareWebTable@15ff3e9e]" started-at="2025-05-19T07:54:52 EDT" name="readFrmWebTb" finished-at="2025-05-19T07:55:01 EDT" duration-ms="8838" status="PASS">
+        <test-method signature="readFrmWebTb()[pri:2, instance:testScenarios.CompareWebTable@3ce1e309]" started-at="2025-05-23T21:05:50 EDT" name="readFrmWebTb" finished-at="2025-05-23T21:05:58 EDT" duration-ms="7485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readFrmWebTb -->
-        <test-method signature="compare()[pri:3, instance:testScenarios.CompareWebTable@15ff3e9e]" started-at="2025-05-19T07:55:01 EDT" name="compare" finished-at="2025-05-19T07:55:01 EDT" duration-ms="1" status="PASS">
+        <test-method signature="compare()[pri:3, instance:testScenarios.CompareWebTable@3ce1e309]" started-at="2025-05-23T21:05:58 EDT" name="compare" finished-at="2025-05-23T21:05:58 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compare -->
       </class> <!-- testScenarios.CompareWebTable -->
       <class name="testScenarios.ReadFrmWebTable">
-        <test-method signature="ReadWebTable()[pri:0, instance:testScenarios.ReadFrmWebTable@7fa98a66]" started-at="2025-05-19T07:54:47 EDT" name="ReadWebTable" finished-at="2025-05-19T07:54:52 EDT" duration-ms="4818" status="PASS">
+        <test-method signature="ReadWebTable()[pri:0, instance:testScenarios.ReadFrmWebTable@71809907]" started-at="2025-05-23T21:05:41 EDT" name="ReadWebTable" finished-at="2025-05-23T21:05:50 EDT" duration-ms="9407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReadWebTable -->
       </class> <!-- testScenarios.ReadFrmWebTable -->
       <class name="testScenarios.ThruTextFile">
-        <test-method signature="readFrmTextFile()[pri:0, instance:testScenarios.ThruTextFile@5fdcaa40]" started-at="2025-05-19T07:55:01 EDT" name="readFrmTextFile" finished-at="2025-05-19T07:55:01 EDT" duration-ms="8" status="PASS">
+        <test-method signature="readFrmTextFile()[pri:0, instance:testScenarios.ThruTextFile@6aba2b86]" started-at="2025-05-23T21:05:58 EDT" name="readFrmTextFile" finished-at="2025-05-23T21:05:58 EDT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readFrmTextFile -->
       </class> <!-- testScenarios.ThruTextFile -->
       <class name="testScenarios.HandlingDynaData">
-        <test-method signature="dynData()[pri:0, instance:testScenarios.HandlingDynaData@61862a7f]" started-at="2025-05-19T07:54:07 EDT" name="dynData" finished-at="2025-05-19T07:54:14 EDT" duration-ms="6255" status="PASS">
+        <test-method signature="dynData()[pri:0, instance:testScenarios.HandlingDynaData@6c80d78a]" started-at="2025-05-23T21:04:56 EDT" name="dynData" finished-at="2025-05-23T21:05:07 EDT" duration-ms="11152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dynData -->
       </class> <!-- testScenarios.HandlingDynaData -->
       <class name="testScenarios.SwitchingWindow">
-        <test-method signature="switchWin()[pri:0, instance:testScenarios.SwitchingWindow@6dc17b83]" started-at="2025-05-19T07:55:01 EDT" name="switchWin" finished-at="2025-05-19T07:55:04 EDT" duration-ms="3626" status="FAIL">
+        <test-method signature="switchWin()[pri:0, instance:testScenarios.SwitchingWindow@158da8e]" started-at="2025-05-23T21:05:58 EDT" name="switchWin" finished-at="2025-05-23T21:06:05 EDT" duration-ms="7633" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Log in"}
-  (Session info: MicrosoftEdge=137.0.3296.16)
+  (Session info: MicrosoftEdge=137.0.3296.30)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [743ac1d945bec57fbb82117c4deeec9c, findElement {value=Log in, using=link text}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.16, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50773}, msedge: {msedgedriverVersion: 137.0.3296.16 (0cd755807947..., userDataDir: C:\Users\pradh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50773/devtoo..., se:cdpVersion: 137.0.3296.16, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 743ac1d945bec57fbb82117c4deeec9c]]>
+Command: [4aec6d2a27e79941fe422d5ced0f6fdb, findElement {using=link text, value=Log in}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.30, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58131}, msedge: {msedgedriverVersion: 137.0.3296.30 (f1cac5ed9d8b..., userDataDir: C:\Users\pradh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58131/devtoo..., se:cdpVersion: 137.0.3296.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4aec6d2a27e79941fe422d5ced0f6fdb]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log in"}
-  (Session info: MicrosoftEdge=137.0.3296.16)
+  (Session info: MicrosoftEdge=137.0.3296.30)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [743ac1d945bec57fbb82117c4deeec9c, findElement {value=Log in, using=link text}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.16, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50773}, msedge: {msedgedriverVersion: 137.0.3296.16 (0cd755807947..., userDataDir: C:\Users\pradh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50773/devtoo..., se:cdpVersion: 137.0.3296.16, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 743ac1d945bec57fbb82117c4deeec9c
+Command: [4aec6d2a27e79941fe422d5ced0f6fdb, findElement {using=link text, value=Log in}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.30, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58131}, msedge: {msedgedriverVersion: 137.0.3296.30 (f1cac5ed9d8b..., userDataDir: C:\Users\pradh\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58131/devtoo..., se:cdpVersion: 137.0.3296.30, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4aec6d2a27e79941fe422d5ced0f6fdb
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
